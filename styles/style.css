@@ -94,3 +94,32 @@ header .section-description{
 .price-content .btn-primary{
     margin-top: 30px;
 }
+/* donate-plan section styles */
+.donate-plan-items{
+    display: flex;
+    gap:24px;
+}
+.donate-plan-items .bg-1{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+.donate-plan-items .bg-2{
+    background-color:  rgba(255, 89, 89, 0.1);
+}
+.donate-plan-items .bg-3{
+    background-color: rgb(255, 244, 214);
+}
+.item{
+    padding: 60px 23px;
+    border-radius: 5px;
+}
+.item .section-title{
+    margin: 32px 0 16px 0;
+    text-align: left;
+    font-weight: 600;
+    font-size: 24px;
+}
+.item .section-description{
+    margin: 0;
+    text-align: left;
+    font-size: 16px;
+}
