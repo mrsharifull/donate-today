@@ -7,12 +7,14 @@
     font-size: 45px;
     color: #121212;
     margin-bottom: 20px;
+    text-align: center;
 }
 .section-description{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     color: #707070;
-    margin-bottom: 50px;
+    margin: 0 243px 50px 243px;
+    text-align: center;
 }
 .btn-primary{
     font-family: 'Inter', sans-serif;
@@ -24,9 +26,12 @@
     border-radius: 5px;
     border: 0;
 }
+main{
+    max-width: 1150px;
+    margin: 0 auto;
+}
 section{
     margin-top: 130px;
-    max-width: 1150px;
 }
 /* header styles */
 header{
@@ -50,4 +55,42 @@ header .section-description{
     margin-left: 400px;
     margin-right: 400px;
     color: #fff;
+}
+/* donate-today styles */
+.price-content{
+    padding: 0 181px;
+    text-align: center;
+}
+.prices{
+    display: flex;
+    justify-content: start;
+    gap: 22px;
+}
+.price{
+    width: 135px;
+    height: 123px;
+    line-height: 123px;
+    background-color: #FAFAFA;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #707070;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+.price:hover{
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+}
+.price-text{
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #B3B3B3;
+    margin-top: 60px;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #DADADA;
+}
+.price-content .btn-primary{
+    margin-top: 30px;
 }
