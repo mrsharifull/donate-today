@@ -182,3 +182,19 @@ header .section-description {
     margin-left: -4px;
     width: 31%;
 }
+/* footer styles */
+footer{
+    margin-top: 130px;
+    padding: 43px 0;
+    background-color: #000;
+    text-align: center;
+}
+.footer-title{
+    margin-bottom: 24px;
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+}
+.footer-description{
+    color: #fff;
+}
