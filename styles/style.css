@@ -1,125 +1,154 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
-.section-title{
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 45px;
-    color: #121212;
-    margin-bottom: 20px;
-    text-align: center;
+.section-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  color: #121212;
+  margin-bottom: 20px;
+  text-align: center;
 }
-.section-description{
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    color: #707070;
-    margin: 0 243px 50px 243px;
-    text-align: center;
+.section-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #707070;
+  margin: 0 243px 50px 243px;
+  text-align: center;
 }
-.btn-primary{
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    color: #fff;
-    background-color: #FF5959;
-    padding: 16px 12px;
-    border-radius: 5px;
-    border: 0;
+.btn-primary {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  background-color: #ff5959;
+  padding: 16px 12px;
+  border-radius: 5px;
+  border: 0;
 }
-main{
-    max-width: 1150px;
-    margin: 0 auto;
+main {
+  max-width: 1150px;
+  margin: 0 auto;
 }
-section{
-    margin-top: 130px;
+section {
+  margin-top: 130px;
 }
 /* header styles */
-header{
-    background-image: url(../images/donation11.jpg),linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode:multiply;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+header {
+  background-image: url(../images/donation11.jpg),
+    linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-header .section-title{
-    margin-left: 307px;
-    margin-right: 307px;
-    font-size: 65px;
-    color: #fff;
+header .section-title {
+  margin-left: 307px;
+  margin-right: 307px;
+  font-size: 65px;
+  color: #fff;
 }
-header .section-description{
-    margin-left: 400px;
-    margin-right: 400px;
-    color: #fff;
+header .section-description {
+  margin-left: 400px;
+  margin-right: 400px;
+  color: #fff;
 }
 /* donate-today styles */
-.price-content{
-    padding: 0 181px;
-    text-align: center;
+.price-content {
+  padding: 0 181px;
+  text-align: center;
 }
-.prices{
-    display: flex;
-    justify-content: start;
-    gap: 22px;
+.prices {
+  display: flex;
+  justify-content: start;
+  gap: 22px;
 }
-.price{
-    width: 135px;
-    height: 123px;
-    line-height: 123px;
-    background-color: #FAFAFA;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    color: #707070;
-    font-size: 30px;
-    border-radius: 5px;
-    border: 2px solid transparent;
+.price {
+  width: 135px;
+  height: 123px;
+  line-height: 123px;
+  background-color: #fafafa;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #707070;
+  font-size: 30px;
+  border-radius: 5px;
+  border: 2px solid transparent;
 }
-.price:hover{
-    background-color: #FFEEEE;
-    color: #FF5959;
-    border: 2px solid #FF5959;
+.price:hover {
+  background-color: #ffeeee;
+  color: #ff5959;
+  border: 2px solid #ff5959;
 }
-.price-text{
-    font-family: 'Poppins';
-    font-size: 18px;
-    color: #B3B3B3;
-    margin-top: 60px;
-    padding-bottom: 9px;
-    border-bottom: 1px solid #DADADA;
+.price-text {
+  font-family: "Poppins";
+  font-size: 18px;
+  color: #b3b3b3;
+  margin-top: 60px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #dadada;
 }
-.price-content .btn-primary{
-    margin-top: 30px;
+.price-content .btn-primary {
+  margin-top: 30px;
 }
 /* donate-plan section styles */
-.donate-plan-items{
-    display: flex;
-    gap:24px;
+.donate-plan-items {
+  display: flex;
+  gap: 24px;
 }
-.donate-plan-items .bg-1{
-    background-color: rgba(79, 157, 166, 0.1);
+.donate-plan-items .bg-1 {
+  background-color: rgba(79, 157, 166, 0.1);
 }
-.donate-plan-items .bg-2{
-    background-color:  rgba(255, 89, 89, 0.1);
+.donate-plan-items .bg-2 {
+  background-color: rgba(255, 89, 89, 0.1);
 }
-.donate-plan-items .bg-3{
-    background-color: rgb(255, 244, 214);
+.donate-plan-items .bg-3 {
+  background-color: rgb(255, 244, 214);
 }
-.item{
-    padding: 60px 23px;
+.item {
+  padding: 60px 23px;
+  border-radius: 5px;
+}
+.item .section-title {
+  margin: 32px 0 16px 0;
+  text-align: left;
+  font-weight: 600;
+  font-size: 24px;
+}
+.item .section-description {
+  margin: 0;
+  text-align: left;
+  font-size: 16px;
+}
+/* blog section styles */
+.blog{
+    display: grid;
+    gap: 100px;
+}
+.blog-item {
+  display: flex;
+  gap: 83px;
+  align-items: center;
+}
+.blog-content {
+  width: 493px;
+  height: 374px;
+}
+.blog-content .section-title {
+  text-align: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+.blog-content .section-description {
+  text-align: left;
+  margin:0 0 20px 0;
+}
+.blog-image{
+    width: 456px;
+    height: 477px;
     border-radius: 5px;
-}
-.item .section-title{
-    margin: 32px 0 16px 0;
-    text-align: left;
-    font-weight: 600;
-    font-size: 24px;
-}
-.item .section-description{
-    margin: 0;
-    text-align: left;
-    font-size: 16px;
 }
